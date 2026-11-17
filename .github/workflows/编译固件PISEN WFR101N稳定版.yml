@@ -89,7 +89,7 @@ jobs:
               REPO_BRANCH="main"
               TAGS_NAME="pisen-wfr101n-22.03"
           elif [[ "${{ inputs.source_branch }}" == *"pisen-wfr101n-23.05.0"* ]]; then
-              REPO_URL="https://github.com/YGSRY/PISEN_WFR101N_25.12.6"
+              REPO_URL="https://github.com/amaxsky/PISEN_WFR101N_25.12.6"
               REPO_BRANCH="main"
               TAGS_NAME="pisen-wfr101n-23.05.0"
           elif [[ "${{ inputs.source_branch }}" == *"pisen-wfr101n-23.05.0_tor"* ]]; then
